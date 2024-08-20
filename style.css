@@ -20,6 +20,7 @@ body {
     border-radius: 50%;
     background: black;
     margin-bottom: 20px;
+    margin-left: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
