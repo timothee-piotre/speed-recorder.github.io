@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compteur de vitesse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="speed-stats">
+            <div class="stat">
+                <div>Vitesse max</div>
+                <div class="stat-value" id="max-speed">0</div>
+            </div>
+            <div class="stat">
+                <div>Vitesse moyenne</div>
+                <div class="stat-value" id="avg-speed">0</div>
+            </div>
+        </div>
+        <div class="speedometer">
+            <div class="bar" id="bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="speed-value" id="speed">0</div>
+        </div>
+        <div class="unit" id="unit">km/h</div>
+        <div class="odometer" id="odometer">
+            <div>0</div>
+            <div>0</div>
+            <div>0</div>
+            <div>0</div>
+            <div>0</div>
+            <div>0</div>
+            <div class="active">0</div>
+        </div>
+        <div class="precision">
+            <div id="precision-box" class="precision-box">0.00</div>
+        </div>
+        <div class="alert" id="alert">Vitesse dangereuse</div>
+        <div class="buttons">
+            <button id="convert">Convertir en miles</button>
+            <button id="start">Démarrer la mesure</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
